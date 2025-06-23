@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #fff;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+header{
+    background-color: transparent;
+    background-blend-mode: color-burn;
+    padding: 3px 10px 0px 10px;
+    display: block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    transition: backdrop-filter 0.3s;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+.navsection1{
+    display: block;
+    width: 33.33333333333333%;
+}
+.logo{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    gap: 3px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    letter-spacing: -2px;
+}
+.logo sup{
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+}
+.navsection2{
+    display: block;
+    width: 33.33333333333333%;
+}
+.search-bar{
+    align-items: center;
+    max-width: 600px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.search-bar input{
+    background-color: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 500px;
+    border-radius: 1000px 0 0 1000px;
+    border: 2px solid rgba(123, 123, 123, 0.416);
+}
+.search-bar input:focus{
+    outline: none;
+    border-color: rgb(255, 255, 255);
+}
+.search-bar input::placeholder{
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+.search-bar button {
+    height: 40px;
+    width: 40px;  
+    background-color: rgba(123, 123, 123, 0.416);
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+#search-button{
+    height: 46px;
+    width: 40px;
+    border-radius: 0 1000px 1000px 0;
+    border: none;
+    cursor: pointer;
+
+}
+.navsection3{
+    display: block;
+    width: 33.33333333333333%;
+}
+.user-actions{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: end;
+    text-align: right;
+    position: relative;
+    align-content: center;
+}
+.user-actions button{
+    background-color: rgba(123, 123, 123, 0.416);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0px 10px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.user-actions button p{
+    display: flexbox;
+}
+.user-actions button img{
+    width: 20px;
+    height: 20px;
+}   

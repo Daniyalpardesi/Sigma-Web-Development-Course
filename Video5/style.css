@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+}
+table {
+    width: 50%;
+
+}
+th {
+    background-color: #000000;
+    padding: 8px;
+    text-align: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+td {
+    padding: 8px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+li {
+    font-family: 'Courier New', Courier, monospace;
+    padding-inline: 10px;
+}
+.lists {
+    display: flex;
+    padding: 10PX;
+}

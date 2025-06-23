@@ -1,0 +1,71 @@
+body::selection {
+    background-color: rgba(255, 255, 255, 0.719);
+    color: rgba(117, 25, 230, 0.712);
+}
+body{
+    background-image: url(./Images/wallpaperflare.com_wallpaper.jpg);
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ol{
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+}
+li a:hover{
+    height: 40px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.591);
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(248, 248, 248, 0.772);
+    transition: 0.3s ease-in;
+    display: flex;
+    align-items: center;
+}
+li a{
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(111, 50, 209, 0.598);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+li a img{
+    width: 30px;
+    padding-right: 10px;
+ 
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+}
+h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}

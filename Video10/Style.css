@@ -1,0 +1,16 @@
+.video1{
+    display: flex;
+}
+.video2{
+    display: flex;
+}
+.video3{
+    display: flex;
+}
+video{
+    display: flex;
+}
+.video{
+    display: flex;
+    gap: 10px;
+}
