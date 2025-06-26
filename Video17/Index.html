@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css - Element Selector SWDC</title>
+    <Style>
+        /* Element Selector */
+        
+        Div{
+            background-color: lightblue;
+            padding: 20px;
+            border: 2px solid blue;
+            font-size: 20px;
+            text-align: center;
+        }
+        /* class Selector */
+        .pink{
+            background-color: rgb(223, 105, 255);
+            border: 2px solid blue;
+        }
+        /* Id Selector */
+        #Yellow{
+            background-color: rgb(245, 255, 105);
+            border: 2px solid blue;
+        }
+        /* Direct Child Selector */
+        div > p{
+            color: bisque;
+            background-color: blueviolet;
+        }
+        /* Descendant Child Selector */
+        div p{
+            color: bisque;
+            background-color: blueviolet;
+        }
+        /* universal Selector  */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:hover{
+            color: rgb(132, 10, 156);
+            text-decoration: none;
+        }
+        a:visited {
+            color: green;
+        }
+        a:link{
+            color: rgb(255, 64, 64);
+        }
+        a:active {
+            color: rgb(46, 0, 103);
+        }
+        p:first-child {
+            color: red;
+            font-size: 30px;
+        }
+
+    </Style>
+</head>
+<body>
+    
+    <Div class="pink">
+        i am div
+    </Div>
+    
+    <Div>
+        i am another div
+    </Div>
+    
+    <Div id="Yellow">
+        i am another div
+    </Div>
+    <div><p>I am A direct Div Child</p><div>
+    </Div>
+    <div><article><p>I am A Descendant Div Child</p></article></div>
+    <div>
+        <a href="www.google.com" target="_blank">Google</a>
+    </div>
+    <div class="Selector">
+       <p> i am one</p>
+    </div>
+    
+</body>
+</html>
