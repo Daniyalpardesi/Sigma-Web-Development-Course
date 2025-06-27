@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css - Sepecifity</title>
+    <style>
+        h1 {
+            color: rgb(0, 122, 159);
+            background-color: lightgray;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .cpurple {
+            color: purple;
+        }
+        .cred {
+            color: red;
+        }
+        /* if the selector is same the last one will over write */
+        .yellow {
+            color: yellow;
+        }
+        </style>
+</head>
+<body>
+    <div><h1 class="yellow cred cpurple" data-x="a">
+        css specifity
+    </h1></div>
+    <div>
+         
+    </div>
+</body>
+</html>
