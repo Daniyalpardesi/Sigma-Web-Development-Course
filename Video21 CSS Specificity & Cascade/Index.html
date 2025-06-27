@@ -21,21 +21,30 @@
         .yellow {
             color: yellow;
         }
+        /* this is the Example of Attribute  the Specifity of this is 10 */
         [data-x="a"] {
             color: orange;
         }
+        /* the Specifity of this is 0 */
         *{
             color: rgb(255, 0, 0);
         }
+        /* the Specifity of this is 1 */
+
         li {
             color: rgb(0, 255, 0);
         }
+        /* the Specifity of this is 10 */
+
         .Selector3 {
             color: rgb(0, 0, 255);
         }
+        /* the Specifity of this is 100 */
+
         #Selector4 {
             color: rgb(255, 0, 255);
         }
+        /* the specifity Can be Add like H1 specifity is 1 And class specifity is 10 so in total specifity will be 1 + 10 = 11 */
         </style>
 </head>
 <body>
@@ -48,6 +57,8 @@
             <li class="Selector2">Element 1</li>
             <li class="Selector3">Class 10</li>
             <li class="Selector4" id="Selector4">Id 100</li>
+            <!-- the Specifity of this is 1000  -->
+
             <li class="Selector5" style="color: burlywood;">Inline Style 1000</li>
          </ol>
          <!-- if any selector has same specificity then the last one will overwrite
