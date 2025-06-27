@@ -21,6 +21,21 @@
         .yellow {
             color: yellow;
         }
+        [data-x="a"] {
+            color: orange;
+        }
+        *{
+            color: rgb(255, 0, 0);
+        }
+        li {
+            color: rgb(0, 255, 0);
+        }
+        .Selector3 {
+            color: rgb(0, 0, 255);
+        }
+        #Selector4 {
+            color: rgb(255, 0, 255);
+        }
         </style>
 </head>
 <body>
@@ -28,7 +43,15 @@
         css specifity
     </h1></div>
     <div>
-         
+         <ol>
+            <li class="Selector1">Universal 0</li>
+            <li class="Selector2">Element 1</li>
+            <li class="Selector3">Class 10</li>
+            <li class="Selector4" id="Selector4">Id 100</li>
+            <li class="Selector5" style="color: burlywood;">Inline Style 1000</li>
+         </ol>
+         <!-- if any selector has same specificity then the last one will overwrite
+         if !important is used then it will overwrite all the other selectors -->
     </div>
 </body>
 </html>
