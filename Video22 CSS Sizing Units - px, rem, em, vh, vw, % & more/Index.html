@@ -5,9 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         .box {
             border: 2px solid black;
-            width: 233px;
+            width: 80vw;
+            background-color: aquamarine;
+            margin: auto;
+            height: 10vh;
+            position: sticky;
+            left: 0;
+            top: 0;
+        }
+        .container {
+            border: 2px solid black;
+            width: 80vw;
+            background-color: aquamarine;
+            margin: 23px auto;
+            font-size: 18px;
+            /* height: 80vh; */
+            min-height: 80vh;
+        }
+        html {
+            font-size: 18px;
+        }
+        .container > div {
+            font-size: 1em;
+            width: 50%;
+            border: 2px solid red;
+        }
+        .container > div > div{
+            border:2px solid blue;
+            width: 50%;
+        }
+        .mycont{
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            border:2px solid black ;
+            font-size: 22px;
+            width: 80vw;
         }
     </style>
 </head>
@@ -15,5 +55,15 @@
         <Div class="box">
             this is a box
         </Div>
+        <span class="box">
+            this is a box
+        </span>
+        <div class="container">
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quos aspernatur dolores ex natus minima repudiandae doloribus nostrum laboriosam, voluptate dolore. Tenetur molestias culpa id consequuntur voluptatibus placeat? Molestias placeat quidem modi minus sint nobis dolorem, pariatur quod facilis minima necessitatibus fugit ab quae, natus autem eaque non optio in totam omnis ducimus illum? Incidunt, laborum? lorem122 <div>i am a span Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut dignissimos corrupti qui doloribus similique officiis perspiciatis nemo enim accusamus, blanditiis mollitia, aperiam ex.</div></div>
+        
+        </div>
+        <div class="mycont">
+            <p>i am another container </p>
+        </div>
 </body>
 </html>
