@@ -10,18 +10,18 @@
 .cards{
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .image img{
     height: 270px;
     border-radius: 20px;
     position: relative;
-    top: 10px;
     left: 2.5px;
 }
 .top{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .tag{
     display: flex;
@@ -40,7 +40,6 @@
 .card2{
     display: flex;
     flex-direction: column;
-    height: 600px;
     width: 360px;
     gap: 20px;
 }
@@ -49,7 +48,7 @@
     left: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .heading p{
     font-size: 30px;
@@ -66,7 +65,7 @@
 }
 .Paragraph{
     position: relative;
-    top: 15px;
+    top: 5px;
     right: 5px;
 }
 .Button button{
@@ -81,6 +80,10 @@
     font-weight: 700;
 }   
 .Button{
+    display: flex;
+    justify-content: center;
+}
+H1{
     display: flex;
     justify-content: center;
 }
