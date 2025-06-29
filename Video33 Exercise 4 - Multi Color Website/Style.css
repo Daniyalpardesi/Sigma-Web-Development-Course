@@ -1,0 +1,56 @@
+:root{
+    --color: #F7CFD8;
+    --bgcolor: #73C7C7;
+    --Font: system-ui;
+    --sFont: 20px;
+    --hsFont: 21px;
+    --wFont: 600;
+    --hwFont: 700;
+    --hcolor: #F4F8D3;
+    --hbgcolor: #A6F1E0;
+    --border:2px solid var(--hcolor);
+    --hborder:2px solid var(--color);
+    --hborderr: 25px;
+    --borderr: 10px;
+    --transition: 1s ease;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+.navbar {
+    background-color: var(--bgcolor);
+}
+.navbar ul li{
+
+    padding: 10px;
+}
+.navbar ul li a{
+    padding: 20px;
+    font-size: var(--sFont);
+    color: var(--color);
+    border: var(--border);
+    transition: var(--transition);
+    border-radius: var(--borderr);
+    font-family: var(--Font);
+    font-weight: var(--wFont);
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    border: var(--hborder);
+    color: var(--hcolor);
+    background-color: var(--hbgcolor);
+    border-radius: var(--hborderr);
+    font-size: var(--hsFont);
+    transition: var(--transition);
+    font-weight: var(--hwFont);
+}
+
