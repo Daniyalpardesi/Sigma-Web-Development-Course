@@ -13,10 +13,13 @@
     justify-content: center;
 }
 .image img{
+    width: 340px;
     height: 270px;
     border-radius: 20px;
-    position: relative;
-    left: 2.5px;
+}
+.image{
+    display: flex;
+    justify-content: center;
 }
 .top{
     display: flex;
