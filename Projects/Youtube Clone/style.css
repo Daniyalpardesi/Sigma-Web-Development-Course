@@ -158,3 +158,22 @@ button:hover,
 .search-buttons button:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+.Container-Space-main{
+    display: block;
+    height: 70vw;
+    width: 85%;
+    overflow-y: auto;
+}
+
+.Container-Space-Sidebar{
+    display: block;
+    width: 15%;
+    height: 70vw;
+    position: absolute 0 0 50px 0;
+    overflow-y: scroll;
+}
+
+.Container{
+    display: flex;
+}
