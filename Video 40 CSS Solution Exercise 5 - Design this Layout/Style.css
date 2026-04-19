@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    min-height: 10vh;
+    /* height: 100px; */
+    background-attachment: fixed;
+    background:#33333399 url(./Images/backdrop\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    border-bottom: 2px solid black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul *{
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(4, 167, 255, 0.161);
+    padding: 10px;
+    transition: 1s ease-in;
+    transition: 1s ease-out;
+}
+nav ul li{
+    padding: 10px;
+}
+.Container{
+    display: flex;
+    background:#33333399 url(./Images/backdrop\ pic.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.Container i{
+    color: white;
+    height: 30px;
+    z-index: 1;
+}
+.icons{
+    position: fixed;
+    top: 450px;
+    left: 95vw;
+}
+.Container Section div{
+    min-height: 40vh;
+    width: 30vw;
+    background-color: rgba(186, 186, 186, 0.381);
+    font-size: 24px;
+}
+body > Section{
+    min-height: 30vh;
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+}
+body > Section div{
+    border: 2px solid white;
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+i:hover{
+    color: rgb(0, 0, 0);
+    transition: 1s ease-in-out;
+    align-items: center;
+}
+footer{
+    min-height: 30vh;
+    background-color: rgb(151, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer p{
+    color: White;
+    font-size: 16px;
+    padding: 10px;
+}
